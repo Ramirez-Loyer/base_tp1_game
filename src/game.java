@@ -12,7 +12,6 @@ public class game {
 
 	public static void main(String[] args) {
 
-		//boolean = false;
 
 		//Demander à l'utilisateur s'il veut jouer
 
@@ -24,7 +23,7 @@ public class game {
 			//L'utilisateur veut continuer alors ici on code le jeu
 
 			int nombreSaisi =0;
-			int nbrRandom = (int) (Math.random()*100 +1); //On doit caster car la méthode Math.random() pour convertir les nombres entiers -> nombrs réélles
+			int nbrRandom = (int) (Math.random()*100 +1); //On doit caster la méthode Math.random() pour convertir les nombres entiers -> nombrs réélles
 			int counter = 0;
 
 			System.out.println("Ecris un nombre entre 1 et 100");
